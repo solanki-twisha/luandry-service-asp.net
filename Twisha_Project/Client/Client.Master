@@ -1,0 +1,296 @@
+﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Client.master.cs" Inherits="Twisha_Project.Client.Client" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Aundri - HTML 5 Template Preview</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+
+
+
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    
+
+    <form id="form1" runat="server">
+        <div class="boxed_wrapper">
+
+
+            <!-- preloader -->
+            <div class="preloader"></div>
+            <!-- preloader -->
+
+
+            <!-- main header -->
+            <header class="main-header">
+            
+                <!-- header-top -->
+                <div class="header-top">
+                    <div class="auto-container">
+                        <div class="top-inner clearfix">
+                            <ul class="info pull-left">
+                                <li><i class="flaticon-email"></i><a href="mailto:needhelp@example.com">needhelp@example.com</a></li>
+                                <li><i class="flaticon-clock"></i>Mon/Sat 9.00am to 7.00pm</li>
+                            </ul>
+                            <div class="right-column pull-right clearfix">
+                                <ul class="social-links clearfix">
+                                    <li><a href="index.aspx"><i class="fab fa-facebook-square"></i></a></li>
+                                    <li><a href="index.aspx"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="index.aspx"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="index.aspx"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                                <div class="btn-box"><a href="services.aspx" class="theme-btn style-one">Order service now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- header-lower -->
+                <div class="header-lower">
+                    <div class="auto-container">
+                        <div class="outer-box clearfix">
+                            <div class="logo-box pull-left">
+                                <figure class="logo"><a href="index.aspx"><img src="assets/images/logo.svg" alt=""></a></figure>
+                            </div>
+                            <div class="menu-area pull-right">
+                                <!--Mobile Navigation Toggler-->
+                                <div class="mobile-nav-toggler">
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                    <i class="icon-bar"></i>
+                                </div>
+                                <nav class="main-menu navbar-expand-md navbar-light">
+                                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation clearfix">
+                                            <li class="current dropdown"><a href="index.aspx">Home</a>
+                                           
+                                            </li> 
+                                            <li class="dropdown"><a href="index.aspx">Pages</a>
+                                                <ul>
+                                                    <li><a href="aboutus.aspx">About Us</a></li>
+                                                    <li><a href="our_pricing.aspx">Our Pricing</a></li>
+                                                    <li><a href="our_gallery.aspx">Our Gallery</a></li>
+                                                    <li><a href="404.aspx">404</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown"><a href="index.aspx">Services</a>
+                                                <ul>
+                                                    <li><a href="services.aspx">Our Services</a></li>
+                                                    <li><a href="curtains_laundry.aspx">Curtains Laundry</a></li>
+                                                    <li><a href="dry_cleaning.aspx">Dry Cleaning</a></li>
+                                                    <li><a href="stain_removals.aspx">Stain Removals</a></li>
+                                                    <li><a href="iron_clothes.aspx">Iron Clothes</a></li>
+                                                    <li><a href="leather_stuff.aspx">Leather Stuff</a></li>
+                                          
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown"><a href="index.aspx">Elements</a>
+                                                <div class="megamenu">
+                                                    <div class="row clearfix">
+                                                        <div class="col-lg-6 column">
+                                                            <ul>
+                                                                <li><h4>Elements 1</h4></li>
+                                                            
+                                                                <li><a href="about_element1.aspx">About Block 02</a></li>
+                                                            
+                                                                <li><a href="service_element1.aspx">Service Block 01</a></li>
+                                                        
+                                                                <li><a href="team_element1.aspx">Team Block 01</a></li>
+                                                                <li><a href="counter_element1.aspx">Counter Block 01</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-6 column">
+                                                            <ul>
+                                                                <li><h4>Elements 2</h4></li>
+                                                            
+                                                            
+                                                    
+                                                                <li><a href="chooseus_element1.aspx">Chooseus Block</a></li>
+                                                            
+                                                            
+                                                                <li><a href="solution_element1.aspx">Solution Block</a></li>
+                                                         
+                                                            </ul>
+                                                        </div>                                    
+                                                    </div>                                        
+                                                </div>
+                                            </li>   
+                                       
+                                            <li><a href="contactus.aspx">Contact</a></li>   
+                                 
+                                        <li>
+                                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Logout</asp:LinkButton></li> 
+                   
+                               
+                                        </ul>
+                                    </div>
+                                </nav>
+                                <div class="menu-right-content">
+                                    <div class="icon-box"><i class="flaticon-mobile-app"></i></div>
+                                    <h6><a href="tel:6668880000">666 888 0000</a></h6>
+                                    <p>Call Anytime For Booking</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--sticky Header-->
+                <div class="sticky-header">
+                    <div class="auto-container">
+                        <div class="outer-box clearfix">
+                            <div class="info-box pull-left clearfix">
+                                <div class="logo-box">
+                                    <figure class="logo"><a href="index.aspx"><img src="assets/images/logo.svg" alt=""></a></figure>
+                                </div>
+                            </div>
+                            <div class="menu-area pull-right">
+                                <nav class="main-menu clearfix">
+                                    <!--Keep This Empty / Menu will come through Javascript-->
+                                </nav>
+                                <div class="menu-right-content">
+                                    <div class="icon-box"><i class="flaticon-mobile-app"></i></div>
+                                    <h6><a href="tel:6668880000">666 888 0000</a></h6>
+                                    <p>Call Anytime For Booking</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- main-header end -->
+
+   
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+   
+
+            <!-- main-footer -->
+            <section class="main-footer">
+                <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-5.png);"></div>
+                <div class="image-layer" style="background-image: url(assets/images/icons/buble-3.png);"></div>
+                <div class="auto-container">
+                    <div class="footer-top clearfix">
+                        <figure class="footer-logo pull-left"><a href="index.aspx"><img src="assets/images/footer-logo.png" alt=""></a></figure>
+                        <div class="right-column pull-right clearfix">
+                            <div class="subscribe-box">
+                                <form action="http://azim.commonsupport.com/Aundri/index.aspx" method="post">
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Email Address" required="">
+                                        <button type="submit" class="theme-btn style-two">Register</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <ul class="social-links clearfix">
+                                <li><a href="index.aspx"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.aspx"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="index.aspx"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="index.aspx"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget-section">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="contact-widget">
+                                    <div class="btn-box"><a href="services.aspx">order service now</a></div>
+                                    <ul class="info-list clearfix">
+                                        <li><i class="flaticon-telephone"></i><a href="tel:6668880000">666 888 0000</a></li>
+                                        <li><i class="flaticon-email"></i><a href="mailto:needhelp@example.com">needhelp@example.com</a></li>
+                                        <li><i class="flaticon-clock"></i>Mon/Sat 9.00am to 7.00pm</li>
+                                        <li><i class="flaticon-pin"></i>80 Broklyn Golden Street, USA</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget links-widget ml-25">
+                                    <div class="widget-title">
+                                        <h3>Explore</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="links-list clearfix">
+                                            <li><a href="aboutus.aspx">About</a></li>
+                                            <li><a href="services.aspx">Our Services</a></li>
+                                            <li><a href="team_element1.aspx">Team Members</a></li>
+                                            <li><a href="contactus.aspx">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                <div class="footer-widget links-widget ml-70">
+                                    <div class="widget-title">
+                                        <h3>Services</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <ul class="links-list clearfix">
+                                            <li><a href="curtains_laundry.aspx">Curtains Laundry</a></li>
+                                            <li><a href="stain_removals.aspx">Stain Removals</a></li>
+                                            <li><a href="clothes_laundry.aspx">Clothes Laundry</a></li>
+                                            <li><a href="dry_cleaning.aspx">Dry Cleaning</a></li>
+                                            <li><a href="leather_stuff.aspx">Leather Stuff</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom centred">
+                    <div class="auto-container">
+                        <div class="copyright"><p>&copy; Copyright 2020 by <a href="index.aspx">Aundri</a></p></div>
+                    </div>
+                </div>
+            </section>
+            <!-- main-footer end -->
+
+
+            <!--Scroll to top-->
+            <button class="scroll-top scroll-to-target" data-target="html">
+                <span class="fa fa-arrow-up"></span>
+            </button>
+        </div>
+
+
+        <!-- jequery plugins -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/validation.js"></script>
+        <script src="assets/js/jquery.fancybox.js"></script>
+        <script src="assets/js/appear.js"></script>
+        <script src="assets/js/scrollbar.js"></script>
+
+        <!-- main-js -->
+        <script src="assets/js/script.js"></script>
+    </form>
+
+
+</body>
+</html>
